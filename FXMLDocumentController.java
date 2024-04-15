@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML2.java to edit this template
  */
-package deliveryservices;
+package security.control.officer.ms3;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,7 +13,7 @@ import javafx.scene.control.Label;
 
 /**
  *
- * @author sadaf
+ * @author akber
  */
 public class FXMLDocumentController implements Initializable {
     
