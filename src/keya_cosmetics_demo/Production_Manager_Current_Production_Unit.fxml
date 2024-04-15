@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="keya_cosmetics_demo.Production_Manager_Current_Production_UnitController">
+   <children>
+      <Button layoutX="194.0" layoutY="312.0" mnemonicParsing="false" onAction="#View_Production_Unit_Button_On_click" prefHeight="25.0" prefWidth="215.0" text="View Production Unit" />
+      <TableView fx:id="View_Production_Table" layoutX="17.0" layoutY="101.0" prefHeight="166.0" prefWidth="568.0">
+        <columns>
+          <TableColumn fx:id="Table_column_Product_ID" prefWidth="141.0" text="Poduct ID" />
+          <TableColumn fx:id="Table_Column_Product_Name" prefWidth="150.33331298828125" text="Product Name" />
+            <TableColumn fx:id="Table_column_Production_Cost" prefWidth="147.66668701171875" text="Production Cost" />
+            <TableColumn fx:id="Table_Column_Production_date" prefWidth="130.66668701171875" text="Production Date" />
+        </columns>
+      </TableView>
+      <Button layoutX="237.0" layoutY="355.0" mnemonicParsing="false" onAction="#Return_To_Dashboard_On_Click" text="Return to dashboard" />
+      <Label layoutY="2.0" prefHeight="66.0" prefWidth="600.0" style="-fx-background-color: green;" text="          Current Production Unit ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
